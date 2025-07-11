@@ -1,9 +1,5 @@
-
 import requests, json
-
-
 URL = "http://127.0.0.1:8000/studentapi/"
-
 def get_student(id=None):
     data = {}
     if id != None:
@@ -12,7 +8,6 @@ def get_student(id=None):
     r = requests.get(url=URL, data=json_data)
     result = r.json()
     print(result, type(result))
-
 def create_student():
     data = {
         'name': 'abc',
@@ -24,7 +19,5 @@ def create_student():
     # print(r.text, '----------------------------------------')
     data = r.json()
     print(data)
-
-
 create_student()
 # get_student(1)
