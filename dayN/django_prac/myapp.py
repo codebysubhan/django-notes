@@ -34,9 +34,21 @@ def update_data():
     # print(r.text, '----------------------------------------')
     data = r.json()
     print(data)
+# DELETE
+def delete_data():
+    data = {
+        'id': 3
+    }
+    json_data = json.dumps(data)
+    r = requests.delete(url=URL, data=json_data)
+    # print(r.text, '----------------------------------------')
+    data = r.json()
+    print(data)
 
 
 
-# post_data()
+
 # get_student()
-update_data()
+# post_data()
+# update_data()
+# delete_data()
