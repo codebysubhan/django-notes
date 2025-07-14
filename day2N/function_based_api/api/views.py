@@ -35,6 +35,7 @@ def hello_world(request, pk=None):
         return Response(serializer.errors)
 
     if request.method == 'PATCH':
+        print('inside patch ----------------------------')
         stu = Student.objects.get(pk=pk)
         serializer = StudentSerializer(stu, data=request.data, partial=True)
         if serializer.is_valid():
