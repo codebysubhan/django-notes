@@ -16,8 +16,8 @@ class StudentSerializer(serializers.ModelSerializer):
         model = Student
         # fields = '__all__' # for all attributes
         fields = ['name', 'roll', 'city']
-        # read_only_fields = ['name']
         # fields = exclude('id') # for all except 'id'
+        # read_only_fields = ['name']
         # we can also write like:
         # extra_kwargs = {'name':{'read_only':True}}
     def validate_name(self, value):
