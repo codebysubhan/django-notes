@@ -1,0 +1,8 @@
+Django
+
+Introduction to DRF(Django Rest Framework)
+DRF lifecycle (basic flow of an API)
+DRF vs other REST frameworks
+REST architecture vs other architectures
+Serialization
+Deserialization

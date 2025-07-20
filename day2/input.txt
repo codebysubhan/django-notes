@@ -1,0 +1,10 @@
+Alice,24,Engineer
+Bob,30,Designer
+Charlie,22,Student
+Diana,28,Doctor
+Ethan,35,Manager
+Fiona,27,Artist
+George,31,Developer
+Hannah,26,Writer
+Ian,29,Analyst
+Julia,23,Teacher
